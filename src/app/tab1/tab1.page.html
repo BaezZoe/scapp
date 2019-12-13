@@ -1,0 +1,36 @@
+<ion-header color="primary">
+  <ion-toolbar color= "primary" >
+    <ion-title >
+      PANTALLA PRINCIPAL
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="light">
+    <ion-card class="welcome-card">
+      <img src="/assets/icon/ngt.png" alt="" />
+      <ion-card-header color= "light">
+        <ion-card-subtitle>INICIO</ion-card-subtitle>
+        <ion-card-title>BIENVENIDO  A SCAPP</ion-card-title>
+      </ion-card-header>
+      
+      <ion-card-content color="light" >
+        <p > sistema control de asistencias</p>
+      </ion-card-content>
+    </ion-card>
+    <ion-list lines="none">
+      <ion-list-header>
+        <ion-label color="tertiary">UNIVERSIDAD TECNOLOGICA DE TECAMACHALCO</ion-label>
+      </ion-list-header>
+      <ion-list-header color="primary">
+        <ion-label>Tecnologías de la Información</ion-label>
+      </ion-list-header>
+      <ion-item href="https://www.newgenerationt.com/SCA/" >
+        <ion-icon slot="start" color="medium" name="globe"></ion-icon>
+        <ion-label color="success">Acceder a la aplicación web</ion-label>
+      </ion-item>
+      
+      <ion-button color="success" (click)="oncheck()" expand="block">TOMA ASISTENCIA</ion-button>
+            
+    </ion-list>
+</ion-content>
